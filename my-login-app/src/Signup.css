@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background: #fff;
+    padding-bottom:30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: #009d61;  
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: #009d61;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.dropdown-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    width:400px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.dropdown .dropdown-btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #eaeaea;
+    box-shadow:3px 3px 10px 6px rba(0,0,0,0.06);
+    font-weight:bold;
+    cursor: pointer;
+    
+}
+
+.dropdown .dropdown-content{
+    position: absolute;
+    top:110%;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: 500;
+    color:#333;
+    width:55%;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+    padding:10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+    background: #f4f4f4;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto 20px;
+}
+
+.bottom-container{
+    display: flex;
+    margin: 20px auto;
+}
+
+.or-text{
+    font-size: 20px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.google-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #dc2d1b;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
